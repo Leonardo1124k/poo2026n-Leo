@@ -10,7 +10,7 @@ public class TestaEcommerce {
 
         Produto prod = new Produto(10, "Memoria RAM", "16 G", 100);
 //        ItemCarrinho icar = new ItemCarrinho(100, 3, prod);
-        carrinho.adicioneItemCarrinho(100, 3, prod);
+        carrinho.adicioneItemCarrinho(100, 3, prod); jj
 
 
         Produto prod2 = new Produto(100, "Memoria RAM", "32 G", 1000);

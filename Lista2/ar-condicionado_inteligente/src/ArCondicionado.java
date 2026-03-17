@@ -18,21 +18,22 @@ public class ArCondicionado {
         return marca;
     }
 
-    public void setMarca(String marca) {
-        this.marca = marca;
+    public void setMarca(String m) {
+        if(m.length() < 3){
+            System.out.println("Nome muito curto, não aceito.");
+        }else{
+            this.modelo = m;
+            System.out.println("Nome " + m + " aceito!");
+        }
     }
 
     public String getModelo() {
         return modelo;
     }
 
-    public void setModelo(String m) {
-        if(m.lenght() < 3){
-            System.out.println("Nome muito curto, não aceito.");
-        }else{
-            this.modelo = m;
-            System.out.println("Nome " + m + " aceito!");
-        }
+    public void setModelo(String modelo) {
+
+        this.modelo = modelo;
     }
 
     public int getTemperatura() {
@@ -41,10 +42,10 @@ public class ArCondicionado {
 
     public void setTemperatura(int t) {
         if(t < 16 || t > 30){
-            System.out.println("Temperatura não aceita. Deve ser entre 16 e 30 graus.")
+            System.out.println("Temperatura não aceita. Deve ser entre 16 e 30 graus.");
         }else{
             this.temperatura = t;
-            System.out.println("Temperatura aceita.")
+            System.out.println("Temperatura aceita.");
         }
     }
 
@@ -57,7 +58,7 @@ public class ArCondicionado {
     }
 
     public void ativarModoTurbo(){
-        if (verificarCompressor() == true){
+        if (verificarCompressor()){
             this.setTemperatura(16);
             System.out.println("Modo turbo ativado");
         }else{
@@ -66,7 +67,7 @@ public class ArCondicionado {
     }
 
     private boolean verificarCompressor(){
-        sorte = math.random() * 10;
+        int sorte = (int) (Math.random() * 10);
         if (sorte <= 2){
             System.out.println("Compressor com falha técnica!");
             return false;
@@ -75,5 +76,15 @@ public class ArCondicionado {
             System.out.println("Compressor funcionando corretamente!");
             return true;
         }
+    }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "ArCondicionado{" +
+                "marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", temperatura=" + temperatura +
+                ", ligado=" + ligado +
+                '}';
     }
 }
