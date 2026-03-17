@@ -1,0 +1,36 @@
+# 🔹 Arquivos compilados
+
+*.class
+
+# 🔹 Pasta de saída (IntelliJ)
+
+out/
+
+# 🔹 Logs
+
+*.log
+
+# 🔹 Arquivos temporários
+
+*.tmp
+*.swp
+*~
+
+# 🔹 IntelliJ IDEA
+
+.idea/
+*.iml
+
+# 🔹 Maven
+
+target/
+
+# 🔹 Gradle
+
+build/
+.gradle/
+
+# 🔹 Sistema operacional
+
+.DS_Store
+Thumbs.db

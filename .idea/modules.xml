@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Basquete/Basquete.iml" filepath="$PROJECT_DIR$/Basquete/Basquete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lista1/Basquete/Basquete.iml" filepath="$PROJECT_DIR$/lista1/Basquete/Basquete.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClasseObjeto/ClasseObjeto.iml" filepath="$PROJECT_DIR$/ClasseObjeto/ClasseObjeto.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Conta-Banco/Conta-Banco.iml" filepath="$PROJECT_DIR$/Conta-Banco/Conta-Banco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lista1/Conta-Banco/Conta-Banco.iml" filepath="$PROJECT_DIR$/lista1/Conta-Banco/Conta-Banco.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/POO1Projeto.iml" filepath="$PROJECT_DIR$/.idea/POO1Projeto.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Sistema_Streaming/Sistema_Streaming.iml" filepath="$PROJECT_DIR$/Sistema_Streaming/Sistema_Streaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lista1/Sistema_Streaming/Sistema_Streaming.iml" filepath="$PROJECT_DIR$/lista1/Sistema_Streaming/Sistema_Streaming.iml" />
     </modules>
   </component>
 </project>
