@@ -17,6 +17,7 @@ public class CarrinhoCompra {
         this.cliente = cliente;
         this.id = id;
         this.data = data;
+        this.itensCarrinho = new ArrayList<>();
     }
 
     public void adicioneItemCarrinho(int id, float quant, Produto produto){
