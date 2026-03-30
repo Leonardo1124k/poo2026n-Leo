@@ -1,3 +1,5 @@
+package desenvolvedor;
+
 public class Desenvolvedor {
     protected String nome, linguagem;
     protected float salarioBase;
@@ -35,7 +37,7 @@ public class Desenvolvedor {
     }
 
     public void codar(){
-        System.out.println("Desenvolvedor criando código ");
+        System.out.println("desenvolvedor.Desenvolvedor criando código ");
     }
 
     public float calculaBonus(){
@@ -44,7 +46,7 @@ public class Desenvolvedor {
 
     @Override
     public String toString() {
-        return "Desenvolvedor{" +
+        return "desenvolvedor.Desenvolvedor{" +
                 "nome='" + nome + '\'' +
                 ", linguagem='" + linguagem + '\'' +
                 ", salarioBase=" + salarioBase +

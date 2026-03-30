@@ -1,3 +1,5 @@
+package desenvolvedor;
+
 public class Pleno extends Desenvolvedor {
     private int projEntr;
 
@@ -19,7 +21,7 @@ public class Pleno extends Desenvolvedor {
 
     @Override
     public void codar(){
-        System.out.println("Pleno codando e fazendo Code Review");
+        System.out.println("desenvolvedor.Pleno codando e fazendo Code Review");
     }
 
     @Override
@@ -28,7 +30,7 @@ public class Pleno extends Desenvolvedor {
     }
     @Override
     public String toString() {
-        return "Pleno{" +
+        return "desenvolvedor.Pleno{" +
                 super.toString() +
                 "projEntr=" + projEntr +
                 '}';

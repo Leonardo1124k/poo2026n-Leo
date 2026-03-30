@@ -1,3 +1,5 @@
+package desenvolvedor;
+
 public class Junior extends Desenvolvedor{
     private String mentor;
 
@@ -20,12 +22,12 @@ public class Junior extends Desenvolvedor{
 
     @Override
     public void codar(){
-        System.out.println("Junior criando codigo com a mentoria de " + this.mentor);
+        System.out.println("desenvolvedor.Junior criando codigo com a mentoria de " + this.mentor);
     }
 
     @Override
     public String toString() {
-        return "Junior{" +
+        return "desenvolvedor.Junior{" +
                 super.toString()+
                 "mentor='" + mentor + '\'' +
                 '}';

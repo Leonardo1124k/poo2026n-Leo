@@ -1,3 +1,5 @@
+package desenvolvedor;
+
 public class Senior extends Desenvolvedor {
     private float verbaLider;
 
@@ -27,7 +29,7 @@ public class Senior extends Desenvolvedor {
     }
     @Override
     public String toString() {
-        return "Senior{" +
+        return "desenvolvedor.Senior{" +
                 super.toString() +
                 "verbaLider=" + verbaLider +
                 '}';
