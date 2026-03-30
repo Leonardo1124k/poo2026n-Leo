@@ -15,14 +15,13 @@ public class Placar {
     }
 
     public void registrarPonto(String time, int tipo){
-        if(time == nomeTimeCasa){
+        if(time.equals(nomeTimeCasa)){
             this.pontosCasa += tipo;
             System.out.println("Time da casa pontua " + tipo + " pontos.");
-        }else if(time == nomeTimeVisitante){
+        }else if(time.equals(nomeTimeVisitante)){
             this.pontosVisitante += tipo;
             System.out.println("Time visitante pontua " + tipo + " pontos.");
         }
-
     }
 
     public void proximoQuarto(){
@@ -38,6 +37,5 @@ public class Placar {
                 " x " + pontosVisitante + " Time " + nomeTimeVisitante + " - Período: " +
                 periodoQuarto;
     }
-
 
 }

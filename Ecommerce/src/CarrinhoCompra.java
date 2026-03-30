@@ -19,7 +19,7 @@ public class CarrinhoCompra {
         this.data = data;
         this.itensCarrinho = new ArrayList<>();
     }
-
+    //COMPOSICAO - item de carrinho depende do carrinho para ser criado
     public void adicioneItemCarrinho(int id, float quant, Produto produto){
         ItemCarrinho aux = new ItemCarrinho(id, quant, produto);
         this.itensCarrinho.add(aux);

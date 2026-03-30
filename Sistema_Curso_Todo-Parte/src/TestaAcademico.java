@@ -8,7 +8,7 @@ public class TestaAcademico {
         dis1.matricularAluno(alu1);
         dis1.matricularAluno(alu2);
 
-        dis1.criarAvaliacao(01,"Prova Semestral");
+        dis1.criarAvaliacao(101,"Prova Semestral");
 
         dis1.getAvaliacao().get(0).adicionarQuestao(1, "Quando Trump nasceu?", 3.33f);
         dis1.getAvaliacao().get(0).adicionarQuestao(2, "Quando o Brasil foi descoberto?", 3.33f);

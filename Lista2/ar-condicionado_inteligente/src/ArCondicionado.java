@@ -6,9 +6,9 @@ public class ArCondicionado {
 
     public ArCondicionado(String marca, String modelo, int temperatura, boolean ligado) {
         this.setMarca(marca);
-        this.setModelo(modelo);
+        this.modelo = modelo;
         this.setTemperatura(temperatura);
-        this.setLigado(ligado);
+        this.ligado = ligado;
     }
 
     public ArCondicionado() {
@@ -32,7 +32,6 @@ public class ArCondicionado {
     }
 
     public void setModelo(String modelo) {
-
         this.modelo = modelo;
     }
 
