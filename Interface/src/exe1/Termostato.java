@@ -1,4 +1,19 @@
-package Exercicio;
+package exe1;
+public class Termostato implements DispositivoLigavel, SensorTemperatura{
+    private boolean ativo = false;
+    @Override
+    public void ligar() {
+        this.ativo = true;
+        System.out.println("Termostato ativado");
+    }
+    @Override
+    public void desligar() {
+        this.ativo = false;
+        System.out.println("Termostato desativado");
+    }
 
-public class Termostato {
+    @Override
+    public double lerTemperatura() {
+        return 22.5; // simulação de leitura
+    }
 }

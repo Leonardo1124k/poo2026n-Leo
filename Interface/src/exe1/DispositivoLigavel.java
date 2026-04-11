@@ -1,4 +1,6 @@
-package Exercicio;
+package exe1;
 
-public class DispositivoLigavel {
+public interface DispositivoLigavel {
+    void ligar();
+    void desligar();
 }

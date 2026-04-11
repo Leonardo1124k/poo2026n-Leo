@@ -1,4 +1,5 @@
-package Exercicio;
+package exe1;
 
-public class Autenticavel {
+public interface Autenticavel {
+    void validarAcesso(String senha);
 }

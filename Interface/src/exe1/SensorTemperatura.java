@@ -1,4 +1,5 @@
-package Exercicio;
+package exe1;
 
-public class SensorTemperatura {
+public interface SensorTemperatura {
+    double lerTemperatura();
 }
